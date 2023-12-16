@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "search_results1",
+            "@type": "Dataset",
+            "name": "Results for 'GHAP Place Search API Demo (v1.0)' Fuzzy Search",
+            "description": "This dataset contains the results of a fuzzy name search on the GHAP web API. The search was conducted via an API call using a Jupyter Notebook. The Jupyter Notebook serves as a demo for making API calls to GHAP and was commissioned by ARDC.",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+            "@id": "ghap_fuzzy_output.csv",
+            "@type": "File",
+            "name": "Results for 'GHAP Place Search API Demo (v1.0)' Fuzzy Search",
+            "description": "CSV file containing results from a fuzzy name search on the GHAP web API, which was conducted via a Jupyter Notebook as part of a demo of the GHAP place search API. Each row represents a geographical feature and contains a series of columns, including its coordinates.",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "search_results2",
+            "@type": "Dataset",
+            "name": "Results for 'GHAP Place Search API Demo (v1.0)' Bounding Box Search",
+            "description": "This dataset contains the results of a bounding box search on the GHAP web API. The search was conducted via an API call using a Jupyter Notebook. The Jupyter Notebook serves as a demo for making API calls to GHAP and was commissioned by ARDC.",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+            "@id": "ghap_fuzzy_output.csv",
+            "@type": "File",
+            "name": "Results for 'GHAP Place Search API Demo (v1.0)' Bounding Box Search",
+            "description": "CSV file containing results from a bounding box search on the GHAP web API, which was conducted via a Jupyter Notebook as part of a demo of the GHAP place search API. Each row represents a geographical feature and contains a series of columns, including its coordinates.",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "#author1",
+            "@type": "Person",
+            "name": "Kaine Usher",
+            "affiliation": "GeoJikuu x Australian Research Data Commons (ARDC)"
+        },
+        {
+            "@id": "./",
+            "@type": "CreativeWork",
+            "description": "This RO-Crate includes the results of a two demo calls to the GHAP place search API. The first set of results is from a fuzzy name search and the second set of results is from a bounding box search."
+        }
+    ]
+}
